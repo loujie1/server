@@ -1,0 +1,8 @@
+.:53 {
+    root ./testdata/rhine/zones
+    rhine root.db {
+        scion off
+    }
+    log
+}
+

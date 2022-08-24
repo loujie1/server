@@ -1,0 +1,7 @@
+l2.l1.:53 {
+    root ./testdata/dns/zones
+    file l2.db
+    log
+}
+
+
