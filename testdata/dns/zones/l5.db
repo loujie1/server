@@ -2,6 +2,6 @@ l5.l4.l3.L2.l1.	604800	IN	SOA	ns.l5.l4.l3.L2.l1. hostmaster.l5.l4.l3.L2.l1. 1659
 l5.l4.l3.L2.l1.	604800	IN	NS	ns.l5.l4.l3.L2.l1.
 
 l6.l5.l4.l3.L2.l1.	604800	IN	NS	ns.l6.l5.l4.l3.L2.l1.
-ns.l6.l5.l4.l3.L2.l1.	604800	IN	A	64.225.99.55
+ns.l6.l5.l4.l3.L2.l1.	604800	IN	A	159.65.120.31
 
 a.l5.l4.l3.L2.l1.	604800	IN	A	198.41.0.12
