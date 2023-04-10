@@ -107,7 +107,7 @@ func (k *Kubernetes) ExternalServices(zone string) (services []msg.Service) {
 	return services
 }
 
-//ExternalSerial returns the serial of the external zone
+// ExternalSerial returns the serial of the external zone
 func (k *Kubernetes) ExternalSerial(string) uint32 {
 	return uint32(k.APIConn.Modified(true))
 }

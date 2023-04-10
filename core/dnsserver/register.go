@@ -207,7 +207,8 @@ func (c *Config) AddPlugin(m plugin.Plugin) {
 }
 
 // registerHandler adds a handler to a site's handler registration. Handlers
-//  use this to announce that they exist to other plugin.
+//
+//	use this to announce that they exist to other plugin.
 func (c *Config) registerHandler(h plugin.Handler) {
 	if c.registry == nil {
 		c.registry = make(map[string]plugin.Handler)
